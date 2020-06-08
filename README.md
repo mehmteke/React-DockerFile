@@ -4,6 +4,7 @@ Oluşturulan React Projesini docker container kullanarak yayınlamak için docke
  
 2-) docker image build komutu kullanarak react-dockerfile-first-test adında yeni bir image oluşturma.
 ......\React_Docker\my_project> docker image build -t react-dockerfile-first-test .
+
 3-) Oluşturduğum yeni image'ı (react-dockerfile-first-test) kullanarak Container oluşturma.
 
 .....\React_Docker\my_project>docker container run --rm -p 2006:3000 react-dockerfile-first-test
